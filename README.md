@@ -35,7 +35,7 @@ shippingTracking/
 │
 └─ README.md
 
-yaml
+
 Copiar código
 
 ---
@@ -49,16 +49,16 @@ Copiar código
 ###  Configuración
 1. Clonar el repo:
    ```bash
-   git clone https://github.com/tuusuario/seguimiento-pedidos.git
-   cd seguimiento-pedidos/server
+   git clone https://github.com/Josuegarciaseb/shippingTracking.git
+   cd shippingTracking/server
 Instalar dependencias:
 
-bash
+
 Copiar código
 npm install
 Crear archivo .env (puedes copiar del .env.example):
 
-env
+
 Copiar código
 PORT=3001
 DB_HOST=127.0.0.1
@@ -75,7 +75,7 @@ USE seguimiento_pedidos;
 -- Ejecutar script SQL de las tablas (usuario, pedido, historial_estado)
 Levantar servidor:
 
-bash
+
 Copiar código
 npm run dev
  El backend estará disponible en http://localhost:3001
@@ -90,22 +90,22 @@ Expo CLI (npm install -g expo-cli) o usar npx
  Configuración
 Ir al frontend:
 
-bash
+
 Copiar código
 cd ../cliente-expo
 Instalar dependencias:
 
-bash
+
 Copiar código
 npm install
 Editar API_BASE en app/index.js para apuntar a tu backend:
 
-js
+
 Copiar código
 const API_BASE = "http://192.168.1.70:3001"; // IP de tu PC en LAN
 Levantar app:
 
-bash
+
 Copiar código
 npm run start
 Opciones:
