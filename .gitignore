@@ -1,3 +1,17 @@
+# Node
 node_modules/
 .env
-*.log
+
+# Expo / React Native
+cliente-expo/.expo/
+cliente-expo/.expo-shared/
+cliente-expo/web-build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
