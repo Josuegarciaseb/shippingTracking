@@ -19,7 +19,8 @@ Aplicación **full stack** para gestionar pedidos y su estado, desarrollada como
 
 ##  Estructura del proyecto
 
-proyecto-seguimiento/
+shippingTracking/
+│
 ├─ server/ # Backend Node + Express
 │ ├─ src/
 │ │ ├─ db.js
